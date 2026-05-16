@@ -40,6 +40,13 @@ body {
   max-width: 380px;
   background: var(--wther-card);
   border-radius: 24px;
+  color: var(--wther-white);
+}
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--wther-card);
+  border-radius: 24px;
   overflow: hidden;
   color: var(--wther-white);
 }
@@ -60,14 +67,15 @@ body {
   .suggestions {
     position: absolute;
     top: calc(100% - 4px);
-    left: 20px;
-    right: 20px;
-    background: #1a2738;
-    border-radius: 10px;
+    left: 0;
+    right: 0;
+    background: var(--wther-card);
+    border-radius: 0 0 16px 16px;
     list-style: none;
     z-index: 10;
     overflow: hidden;
-    border: 0.5px solid rgba(255,255,255,0.1);
+    border: none;
+    border-top: none;
   }
 
   .suggestions li {
