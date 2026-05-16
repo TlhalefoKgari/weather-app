@@ -76,6 +76,11 @@ function App() {
           </>
         )}
       </div>
+      <footer>
+        <div className="footer">
+          <p>© 2026 react-weather-app. Coded by <a href="https://github.com/TlhalefoKgari">Tlhalefo Kgari</a> · <a href="https://github.com/TlhalefoKgari/weather-app">Open source</a></p>
+        </div>
+      </footer>
     </div>
   )
 }

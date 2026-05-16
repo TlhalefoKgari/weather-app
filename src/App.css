@@ -32,6 +32,8 @@ body {
 .app {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding: 24px 16px;
 }
@@ -42,14 +44,7 @@ body {
   border-radius: 24px;
   color: var(--wther-white);
 }
-.card {
-  width: 100%;
-  max-width: 380px;
-  background: var(--wther-card);
-  border-radius: 24px;
-  overflow: hidden;
-  color: var(--wther-white);
-}
+
 
   /* search */
   .search-bar-wrapper {
@@ -275,4 +270,25 @@ body {
 
   .geo-btn {
     color: var(--wther-light-blue);
+  }
+
+  /* FOOTER */
+  .footer {
+    margin-top: 16px;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  .footer a {
+    color: var(--wther-light-blue);
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
   }
